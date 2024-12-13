@@ -1,0 +1,38 @@
+{
+    "name": "stackhost/bootstrap-theme",
+    "type": "flarum-extension",
+    "description": "Bootstrap theme for Flarum",
+    "keywords": ["flarum", "theme", "bootstrap"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "nvandendries1984",
+            "email": "niels@nvandendries.nl"
+        }
+    ],
+
+    "require": {
+        "flarum/core": "^1.0"
+    },
+
+    "extra": {
+        "flarum-extension": {
+            "title": "Bootstrap Theme",
+            "icon": {
+                "name": "fas fa-paint-brush",
+                "backgroundColor": "#007bff",
+                "color": "#FFFFFF"
+            }
+        }
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Stackhost\\BootstrapTheme\\": "src/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
